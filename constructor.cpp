@@ -32,10 +32,10 @@ public:
 
     //copy constructor
     Teacher(Teacher &t){ //reference variable is used to avoid infinite loop
-        name=t.name;
-        dept=t.dept;
-        sub=t.sub;
-        sal=t.sal;
+        this->name=t.name; //this is custom copy constructor , it copies all the values of t to the current object
+        this->dept=t.dept;
+        this->sub=t.sub;
+        this->sal=t.sal;
     }
 
     string name;
