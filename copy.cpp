@@ -25,6 +25,8 @@ public:
         cout << "Name: " << name << ", CGPA: " << *cgptr << endl;
     }
 
+    
+
 };    
 
 int main(){
